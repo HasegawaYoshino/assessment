@@ -33,6 +33,8 @@ assessmentButton.onclick = () => {
       alert('名前が入力されていません。');
       return;
     }
+    //入力欄を空にする（テキスト外）
+    userNameInput.value='';
 
     //文字列型以外だったらエラーにしようとしたができなかった
     // if (typeof (userName) !== 'string') {
